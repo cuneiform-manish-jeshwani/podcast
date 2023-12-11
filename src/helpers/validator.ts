@@ -119,9 +119,7 @@ Validator.registerAsync(
     compareMap(privileges, data);
   },
   ""
-);
-
-Validator.registerAsync(
+);Validator.registerAsync(
   "checkTime",
   async function (value, attribute, req, passes) {
     const date = new Date();
